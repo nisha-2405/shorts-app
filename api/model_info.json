@@ -1,0 +1,15 @@
+{
+  "text_classes": [
+    "non_cyberbullying",
+    "cyberbullying"
+  ],
+  "text_max_length": 128,
+  "image_size": 224,
+  "text_model": "T5-small based classifier",
+  "image_model": "ConvNeXt Tiny",
+  "dataset_info": {
+    "text_samples": 20001,
+    "cyberbullying_text": 10000,
+    "non_cyberbullying_text": 10001
+  }
+}

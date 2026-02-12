@@ -1,0 +1,17 @@
+node_modules/
+__pycache__/
+*.pyc
+venv/
+venv310/
+.env
+build/
+dist/
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.pth
+*.h5
+*.onnx
+*.pkl
