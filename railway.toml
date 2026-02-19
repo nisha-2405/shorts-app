@@ -1,0 +1,17 @@
+[build]
+builder = "nixpacks"
+
+[nixpacks]
+plan = '''
+{
+  "providers": ["python"],
+  "build": {
+    "commands": [
+      "pip install -r requirements.txt"
+    ]
+  },
+  "start": {
+    "cmd": "gunicorn minimal_api:app"
+  }
+}
+'''
