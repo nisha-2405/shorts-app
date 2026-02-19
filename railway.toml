@@ -7,11 +7,11 @@ plan = '''
   "providers": ["python"],
   "build": {
     "commands": [
-      "pip install -r requirements.txt"
+      "pip install -r requirements-prod.txt"
     ]
   },
   "start": {
-    "cmd": "gunicorn minimal_api:app"
+    "cmd": "gunicorn app_complete:app"
   }
 }
 '''
